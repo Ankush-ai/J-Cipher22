@@ -14,7 +14,7 @@ public class ImageOperation {
 
     public static void operate(int key)
     {
-
+  
         JFileChooser fileChooser=new JFileChooser();
         fileChooser.showOpenDialog(null);
         File file=fileChooser.getSelectedFile();
@@ -67,7 +67,7 @@ public class ImageOperation {
         JTextField textField=new JTextField(10);
         textField.setFont(font);
 
-        
+        //regular expression for button creation with adActionListener event with integer parsing 
         button.addActionListener(e->{
             System.out.println("button clicked");
             String text=textField.getText();
